@@ -22,7 +22,7 @@ const updatedThing = (objectKey, textToInsert) =>
 //check that the object has been mutated correctly
 console.log(updatedThing('_parentId', 'blockTitle'));
 
-function exportToJsonFile(jsonData) {
+const exportToJsonFile = jsonData => {
   let dataStr = JSON.stringify(jsonData);
   let dataUri =
     'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
