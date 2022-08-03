@@ -35,7 +35,6 @@ function exportToJsonFile(jsonData) {
   linkElement.click();
 }
 
-
 // Calling the function below will export the mutated object as a .json
 // exportToJsonFile(updatedThing('_parentId', 'blockTitle'));
 
